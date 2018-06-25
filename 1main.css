@@ -1,0 +1,53 @@
+.like {
+    text-align: center;
+    background-color: skyblue;
+}
+
+.banner {
+    background: url("../images/bg_5.jpg");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 1em 0;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: pink;
+    text-shadow: 1px 1px 1px black;
+}
+
+.all {
+    background: url("../images/bg_5.jpg");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 1em 0;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: yellow;
+    text-shadow: 1px 1px 1px black
+}
+
+.love {
+    background: url(images/bg_10.jpg)
+}
+.all h1:hover,
+h2:hover,
+h3:hover{
+    color: #2be6ec;
+    transition: 0.2s;
+    font-family: '华文行楷'；
+    text-shadow: 1px 1px 1px yellow;
+}
+.banner h1:hover,
+h2:hover,
+h3:hover,
+h4:hover{
+    color: #2be6ec;
+    transition: 0.2s;
+    font-family: '华文行楷'；
+    text-shadow: 1px 1px 1px yellow;
+}
