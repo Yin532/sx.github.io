@@ -15,9 +15,13 @@
 移动优先CSS规则
 ==================================== */
 
+div {
+    opacity: 0.9;
+}
 .main-header {
     text-align: center;
-    background-color: pink;
+    background: url("../images/bg_10.jpg");
+    
 }
 
 .logo {
@@ -68,7 +72,7 @@ footer {
 }
 
 .banner {
-    background: url("../images/bg_5.jpg");
+    background: url("../images/bg_12.jpeg");
     background-size: cover;
     background-position: center center;
     text-align: center;
@@ -101,6 +105,7 @@ h2 {
 
 .container {
     margin: auto;
+    /*background: url("../images/bg_5.jpg");*/
 
 
     /*border: 1px solid black;*/
@@ -123,11 +128,21 @@ h2 {
 }
 
 .JavaScript {
-    background-color: coral;
+    background-color: khaki;
     color: black;
 }
+nav .foldButton 
+{
+    padding: 10px;
+    width: 45px;
+    height: 45px; 
+    background-color: darkorchid;
+}
+nav {
+     background: url("../images/bg_12.jpeg");
 
-
+}
+ 
 
 /* ================================= 
 媒体查询:700px宽
@@ -173,4 +188,6 @@ h2 {
         transition: 0.3s;
         cursor: default;
     }
+    
 }
+        /*<div style="position: fixed;z-index: 1;"></div>*/
